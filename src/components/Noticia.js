@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const Noticia = ({ noticia }) => {
-  const { urlToImage, url, title, description, source } = noticia;
+  const { urlToImage, url, title, description, source, publishedAt } = noticia;
 
   const imagen = urlToImage ? (
     <div className="card-image">
